@@ -14,8 +14,6 @@
 		6D7515811AE07E9F000A0783 /* PigScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7515801AE07E9F000A0783 /* PigScene.m */; };
 		6D7515841AE4941A000A0783 /* RosterScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7515831AE4941A000A0783 /* RosterScene.m */; };
 		6D7953881AF711B600DA29A6 /* Rain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7953871AF711B600DA29A6 /* Rain.m */; };
-		6D79538D1AF711ED00DA29A6 /* Sun.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D79538A1AF711ED00DA29A6 /* Sun.m */; };
-		6D79538E1AF711ED00DA29A6 /* Lightning.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D79538C1AF711ED00DA29A6 /* Lightning.m */; };
 		6D7953911AF74F0500DA29A6 /* Basketball.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7953901AF74F0500DA29A6 /* Basketball.m */; };
 		6D7953941AF74F1300DA29A6 /* Soccer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7953931AF74F1300DA29A6 /* Soccer.m */; };
 		6D7953971AF74F2A00DA29A6 /* Tennis.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7953961AF74F2A00DA29A6 /* Tennis.m */; };
@@ -44,6 +42,9 @@
 		6D7953CB1AF806AD00DA29A6 /* SquarePillow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D7953B61AF806AD00DA29A6 /* SquarePillow.png */; };
 		6D7953CC1AF806AD00DA29A6 /* Tennis.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D7953B71AF806AD00DA29A6 /* Tennis.png */; };
 		6D7953CD1AF806AD00DA29A6 /* TrianglePizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D7953B81AF806AD00DA29A6 /* TrianglePizza.png */; };
+		6D7953D21AF80EA600DA29A6 /* Lightning.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7953CF1AF80EA600DA29A6 /* Lightning.m */; };
+		6D7953D31AF80EA600DA29A6 /* Sun.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7953D11AF80EA600DA29A6 /* Sun.m */; };
+		6D7953D51AF80F1700DA29A6 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D7953D41AF80F1700DA29A6 /* Sun.png */; };
 		6D94C7651ABE589900ED16E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D94C7641ABE589900ED16E0 /* main.m */; };
 		6D94C7681ABE589900ED16E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D94C7671ABE589900ED16E0 /* AppDelegate.m */; };
 		6D94C76B1ABE589900ED16E0 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D94C76A1ABE589900ED16E0 /* GameScene.m */; };
@@ -86,10 +87,6 @@
 		6D7515831AE4941A000A0783 /* RosterScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RosterScene.m; sourceTree = "<group>"; };
 		6D7953861AF711B600DA29A6 /* Rain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rain.h; sourceTree = "<group>"; };
 		6D7953871AF711B600DA29A6 /* Rain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rain.m; sourceTree = "<group>"; };
-		6D7953891AF711ED00DA29A6 /* Sun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sun.h; path = FlashCards.xcodeproj/../Sun.h; sourceTree = SOURCE_ROOT; };
-		6D79538A1AF711ED00DA29A6 /* Sun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sun.m; path = FlashCards.xcodeproj/../Sun.m; sourceTree = SOURCE_ROOT; };
-		6D79538B1AF711ED00DA29A6 /* Lightning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lightning.h; path = FlashCards.xcodeproj/../Lightning.h; sourceTree = SOURCE_ROOT; };
-		6D79538C1AF711ED00DA29A6 /* Lightning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Lightning.m; path = FlashCards.xcodeproj/../Lightning.m; sourceTree = SOURCE_ROOT; };
 		6D79538F1AF74F0500DA29A6 /* Basketball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Basketball.h; sourceTree = "<group>"; };
 		6D7953901AF74F0500DA29A6 /* Basketball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Basketball.m; sourceTree = "<group>"; };
 		6D7953921AF74F1300DA29A6 /* Soccer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soccer.h; sourceTree = "<group>"; };
@@ -125,6 +122,11 @@
 		6D7953B61AF806AD00DA29A6 /* SquarePillow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SquarePillow.png; path = ../../../Pictures/SquarePillow.png; sourceTree = "<group>"; };
 		6D7953B71AF806AD00DA29A6 /* Tennis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tennis.png; path = ../../../Pictures/Tennis.png; sourceTree = "<group>"; };
 		6D7953B81AF806AD00DA29A6 /* TrianglePizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrianglePizza.png; path = ../../../Pictures/TrianglePizza.png; sourceTree = "<group>"; };
+		6D7953CE1AF80EA600DA29A6 /* Lightning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lightning.h; sourceTree = "<group>"; };
+		6D7953CF1AF80EA600DA29A6 /* Lightning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lightning.m; sourceTree = "<group>"; };
+		6D7953D01AF80EA600DA29A6 /* Sun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sun.h; sourceTree = "<group>"; };
+		6D7953D11AF80EA600DA29A6 /* Sun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sun.m; sourceTree = "<group>"; };
+		6D7953D41AF80F1700DA29A6 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sun.png; path = ../../../Pictures/Sun.png; sourceTree = "<group>"; };
 		6D94C75F1ABE589900ED16E0 /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D94C7631ABE589900ED16E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D94C7641ABE589900ED16E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -218,10 +220,10 @@
 				6D7953961AF74F2A00DA29A6 /* Tennis.m */,
 				6D7953861AF711B600DA29A6 /* Rain.h */,
 				6D7953871AF711B600DA29A6 /* Rain.m */,
-				6D7953891AF711ED00DA29A6 /* Sun.h */,
-				6D79538A1AF711ED00DA29A6 /* Sun.m */,
-				6D79538B1AF711ED00DA29A6 /* Lightning.h */,
-				6D79538C1AF711ED00DA29A6 /* Lightning.m */,
+				6D7953CE1AF80EA600DA29A6 /* Lightning.h */,
+				6D7953CF1AF80EA600DA29A6 /* Lightning.m */,
+				6D7953D01AF80EA600DA29A6 /* Sun.h */,
+				6D7953D11AF80EA600DA29A6 /* Sun.m */,
 				6D7515821AE4941A000A0783 /* RosterScene.h */,
 				6D7515831AE4941A000A0783 /* RosterScene.m */,
 				6D75157F1AE07E9F000A0783 /* PigScene.h */,
@@ -267,6 +269,7 @@
 				6D7953A71AF806AD00DA29A6 /* Basketball.png */,
 				6D7953A81AF806AD00DA29A6 /* CircleCookie.png */,
 				6D7953A91AF806AD00DA29A6 /* cow.png */,
+				6D7953D41AF80F1700DA29A6 /* Sun.png */,
 				6D7953AA1AF806AD00DA29A6 /* Crying.png */,
 				6D7953AB1AF806AD00DA29A6 /* Happy.png */,
 				6D7953AC1AF806AD00DA29A6 /* HappyFace.png */,
@@ -391,6 +394,7 @@
 				6D7953BA1AF806AD00DA29A6 /* AngryFace3.png in Resources */,
 				6D7953BF1AF806AD00DA29A6 /* Crying.png in Resources */,
 				6D7953C61AF806AD00DA29A6 /* roster.png in Resources */,
+				6D7953D51AF80F1700DA29A6 /* Sun.png in Resources */,
 				6D7953CD1AF806AD00DA29A6 /* TrianglePizza.png in Resources */,
 				6D7953BB1AF806AD00DA29A6 /* AngryFace5.png in Resources */,
 				6D7953BD1AF806AD00DA29A6 /* CircleCookie.png in Resources */,
@@ -435,13 +439,12 @@
 				6D94C79E1ABE5FE500ED16E0 /* SadScene2.m in Sources */,
 				6D94C7AA1ABE62B000ED16E0 /* HappyScene6.m in Sources */,
 				6D7953911AF74F0500DA29A6 /* Basketball.m in Sources */,
-				6D79538E1AF711ED00DA29A6 /* Lightning.m in Sources */,
+				6D7953D21AF80EA600DA29A6 /* Lightning.m in Sources */,
 				6D94C7701ABE589900ED16E0 /* GameViewController.m in Sources */,
 				6D79539A1AF7EB3F00DA29A6 /* Happy.m in Sources */,
 				6D7953941AF74F1300DA29A6 /* Soccer.m in Sources */,
 				6D94C7681ABE589900ED16E0 /* AppDelegate.m in Sources */,
 				6D7953A31AF7F4A900DA29A6 /* Exit.m in Sources */,
-				6D79538D1AF711ED00DA29A6 /* Sun.m in Sources */,
 				6D7953881AF711B600DA29A6 /* Rain.m in Sources */,
 				6D94C79B1ABE5DD400ED16E0 /* HappyScene1.m in Sources */,
 				6D3B39E01AE5F83A0030C270 /* PizzaScene.m in Sources */,
@@ -452,6 +455,7 @@
 				6D94C7A71ABE61D100ED16E0 /* AngryScene5.m in Sources */,
 				6D3B39E31AE5F8480030C270 /* PillowScene.m in Sources */,
 				6D94C7651ABE589900ED16E0 /* main.m in Sources */,
+				6D7953D31AF80EA600DA29A6 /* Sun.m in Sources */,
 				6D7515841AE4941A000A0783 /* RosterScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
